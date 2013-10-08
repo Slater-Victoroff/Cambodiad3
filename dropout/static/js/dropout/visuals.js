@@ -69,24 +69,6 @@ var dataLookup = {
     "educationLevel": educationLevel
 };
 
-function TransitionToData(grade, dataSource){
-    var regions = d3.selectAll('.region')[0];
-    for (var i = 0; i<regions.length; i++){
-        var name = regions[i].getAttribute('name');
-        values = dataSource[name.toUpperCase()];
-        if (values !== undefined){
-            var node = d3.select('.region[name="'+name+'"]');
-            var relevantValue = Math.floor(255*(values[grade]/dataSource['MAX'][grade]));
-            node.transition()
-                .attr('fill', "#0000"+relevantValue.toString(16));
-        }
-    }
-}
-
-function transition(){
-    TransitionToData($("#numericValue").val(), dataLookup[$("#dataSource").val()]);
-}
-
 function clear(){
     d3.selectAll('.region').attr('fill', '#000000');
 }

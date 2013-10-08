@@ -10,5 +10,17 @@ app.config['DEBUG'] = True
 def display():
     return render_template('main.html')
 
+@app.route('/bubble')
+def bubble():
+    return render_template('bubble.html')
+
+@app.route('/bubble2')
+def bubble2():
+    return render_template('bubble2.html')
+
+@app.route('/graph')
+def graph():
+    return render_template("graph.html")
+
 if __name__ == '__main__':
     app.run()

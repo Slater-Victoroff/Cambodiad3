@@ -1,0 +1,51 @@
+{
+"name": "Children in Cambodia",
+"children": [
+    {"name": "Economically Active(EA)",
+    "children": [
+        {"name": "Attending School",
+        "children": [
+            {"name": "Boys", "size": 4428.15},
+            {"name": "Girls", "size": 4068.95}
+        ]},
+        {"name": "Not Attending School",
+        "children": [
+            {"name": "Boys", "size": 568.20},
+            {"name": "Girls", "size": 637.04}
+        ]},
+        {"name": "EA > 12 hours",
+            "children": [
+                {"name": "Attending School",
+                "children": [
+                    {"name": "Boys", "size": 3004.81},
+                    {"name": "Girls", "size": 2548.01}
+                ]},
+                {"name": "Out of School",
+                "children": [
+                    {"name": "Boys", "size": 547.12},
+                    {"name": "Girls", "size": 569.68}
+                ]}
+            ]
+        },
+        {"name": "EA and Non-economic work > 12 hours",
+        "children": [
+            {"name": "Boys", "size": 3632.99},
+            {"name": "Girls", "size": 3200.85}
+        ]}
+    ]},
+    {"name": "Non-Economic work > 12 hours",
+    "children": [
+        {"name": "Boys", "size": 75.79},
+        {"name": "Girls", "size": 67.98}
+    ]},
+    {"name": "Attending School Only",
+    "children": [
+        {"name": "Boys", "size": 4410.32},
+        {"name": "Girls", "size": 4394.93}
+    ]},
+    {"name": "Not attending school and not EA",
+    "children": [
+        {"name": "Boys", "size": 85.26},
+        {"name": "Girls", "size": 127.21}
+    ]}
+]} 
