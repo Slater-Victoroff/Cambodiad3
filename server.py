@@ -23,4 +23,4 @@ def graph():
     return render_template("graph.html")
 
 if __name__ == '__main__':
-    app.run(port = os.environ['PORT'])
+    app.run(port = int(os.environ['PORT']))
