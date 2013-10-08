@@ -8,19 +8,19 @@ app.config['DEBUG'] = True
 
 @app.route('/')
 def display():
-    return render_template('main.html')
+    return render_template('dropout/main.html')
 
 @app.route('/bubble')
 def bubble():
-    return render_template('bubble.html')
+    return render_template('dropout/bubble.html')
 
 @app.route('/bubble2')
 def bubble2():
-    return render_template('bubble2.html')
+    return render_template('dropout/bubble2.html')
 
 @app.route('/graph')
 def graph():
-    return render_template("graph.html")
+    return render_template("dropout/graph.html")
 
 if __name__ == '__main__':
     app.run(port = int(os.environ['PORT']))
